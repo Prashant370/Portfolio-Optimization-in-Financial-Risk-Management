@@ -15,7 +15,7 @@ pip install -r requirements.txt
 
 ### Run
 ```powershell
-python Assignment_2022CSB1202_Codes.py
+python Assignment_2022CSB1202_2022CSB1087_Codes.py
 ```
 
 ### Outputs (saved in this folder)
