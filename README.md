@@ -17,6 +17,7 @@ pip install -r requirements.txt
 ```powershell
 python Assignment_2022CSB1202_2022CSB1087_Codes.py
 ```
+
 ### Outputs (saved in this folder)
 - `portfolio_holding_returns_3m.csv` — n×5 rolling 3M returns: GMV, MV, EW, Active, NIFTY50
 - `cumulative_growth_series.png` — cumulative growth of $1 across windows
