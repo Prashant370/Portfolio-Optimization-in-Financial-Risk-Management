@@ -1,4 +1,4 @@
-# Author: Prashant Kumar, 2022CSB1202
+# Author: Prashant Kumar (2022CSB1202), Akshat Nagpal (2022MCB1255)
 """
 Build and backtest GMV, Tangency, EW, and Active (Treynor–Black) portfolios vs NIFTY 50
 with a 6M formation / 3M holding window from 2009–2022, and 99% historical VaR (3M).

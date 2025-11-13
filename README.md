@@ -6,16 +6,30 @@ Constructs and backtests GMV, Tangency (mean–variance), Equal-Weight (EW), and
 - `Stocks_data.csv` — daily closing prices (last column is NIFTY 50).
 - `market_Factor_risk_Free.csv` — factors: `Date`, `MF` (percentage), `RF` (decimal).
 
-### Setup (Windows PowerShell)
-```powershell
-python -m venv .venv
-.venv\Scripts\Activate.ps1
+### Option A: With a virtual environment (recommended)
+1) Create and activate the environment
+```bash
+python3 -m venv .venv
+source .venv/bin/activate        # Windows: .venv\Scripts\activate
+```
+2) Install dependencies
+```bash
 pip install -r requirements.txt
 ```
+3) Run the script (replace file name with your script)
+```bash
+python Assignment_2022CSB1202_2022MCB1255_Codes.py
+```
 
-### Run
-```powershell
-python Assignment_2022CSB1202_2022CSB1087_Codes.py
+
+### Option B: Without a virtual environment
+1) Install dependencies for your user account
+```bash
+pip3 install --user -r requirements.txt
+```
+2) Run the script (replace file name with your script)
+```bash
+python3 Assignment_2022CSB1093_2022CEB1027_Codes.py
 ```
 
 ### Outputs (saved in this folder)
